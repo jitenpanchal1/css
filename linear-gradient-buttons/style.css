@@ -1,0 +1,76 @@
+.first-line{
+    display: flex;
+    justify-content: space-between;
+}
+.button-1{
+     font-family: "Inter", serif;
+     font-weight: 600;
+     font-size: 20px;
+     padding: 10px 40px;
+     border-radius: 33px;
+     background: linear-gradient(45deg, #546783,#5E6E38);
+} 
+
+.button-2{
+    font-family: "Inter", serif;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 10px 40px;
+    border-radius: 33px;
+    background: linear-gradient(45deg, #C478BC,#593C7A);
+} 
+
+.button-3{
+    font-family:"Inter", serif;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 10px 40px;
+    border-radius: 33px;
+    background: linear-gradient(45deg, #D0C322,#593C7A);
+} 
+
+.button-4{
+    font-family: "Inter", serif;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 10px 40px;
+    border-radius: 33px;
+    background: linear-gradient(45deg, #D0C322,#C478BC);
+} 
+
+.button-5{
+    font-family: "Inter", serif;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 10px 40px;
+    border-radius: 33px;
+    background: linear-gradient(45deg, #D0C322,#58B7C0);
+} 
+
+.button-6{
+    font-family: "Inter", serif;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 10px 40px;
+    border-radius: 33px;
+    background: linear-gradient(45deg, #DCCF32,#4139C3);
+} 
+
+.button-7{
+    font-family: "Inter", serif;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 10px 40px;
+    border-radius: 33px;
+    background: linear-gradient(45deg, #D0C322,#7C1080);
+} 
+
+.button-8{
+    font-family: "Inter", serif;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 10px 40px;
+    border-radius: 33px;
+    background: linear-gradient(45deg, #0D6E77,#18770E);
+} 
+
