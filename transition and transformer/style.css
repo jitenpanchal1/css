@@ -1,0 +1,28 @@
+body {
+    background-color: aqua;
+}
+
+.box {
+    height: 100px;
+    width: 100px;
+    background-color: brown;
+    margin: 20px;
+    border-radius: 20px;
+    transition: 5s ease-in-out;
+}
+
+.box-1:hover {
+    transform: translate(500px);
+}
+
+.box-2:hover {
+    transform: scale(1.2);
+}
+
+.box-3:hover {
+    transform: rotatey(360deg);
+}
+
+.box-4:hover{
+    transform: skew(360deg);
+}
