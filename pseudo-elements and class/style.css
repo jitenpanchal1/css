@@ -1,0 +1,94 @@
+.box {
+    width: 500px;
+    height: 500px;
+    border: black solid 3px;
+}
+
+.first::placeholder {
+    color: darkred;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: uppercase;
+    background-color: darkmagenta;
+}
+
+li::marker {
+    color: darkred;
+    font-size: 20px;
+}
+
+.para::selection {
+    background-color: gold;
+    color: dodgerblue;
+}
+
+.para::spelling-error {
+    color: red;
+    background-color: royalblue;
+    text-decoration: underline solid red;
+}
+
+.para::grammar-error {
+    color: seagreen;
+}
+
+
+.para::first-line {
+    color: blueviolet;
+}
+
+.para::first-letter {
+    font-size: 50px;
+    color: darkblue;
+}
+
+.para::after {
+    content: "lorem packa ckc emcv ekvc ekkv eks v";
+    color: chartreuse;
+    background-color: cyan;
+}
+
+.para::before {
+    content: "123456789";
+    color: chartreuse;
+    background-color: cyan;
+}
+
+a:visited {
+    color: seagreen;
+}
+
+a:hover {
+    border: 2px solid orangered;
+}
+
+a:active {
+    background-color: yellow;
+}
+
+.second:focus {
+    background-color: yellow;
+}
+
+.box {
+    width: 50px;
+    height: 20px;
+}
+
+.box:nth-child(odd) {
+    background-color: turquoise;
+}
+
+.forth:user-valid {
+    border: 2px solid green;
+}
+
+.forth:user-valid+span::after {
+    content: "✓";
+    color: green;
+}
+
+.p2:read-only {
+    font-weight: bold;
+    color: red;
+}
